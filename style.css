@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  height: 1450px;
+  background-color: #E8E8E8;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  width: 1000px;
+  height: 50px;
+  background-color: white;
+}
+
+.section-one {
+  width: 1000px;
+  background-image: linear-gradient(grey, white);
+}
+
+.section-one {
+  padding-bottom: 25px;
+}
+
+.cover-photo {
+  top: 0;
+  left: 0;
+}
+
+.profile-photo{
+  top: 250px;
+  left: 75px;
+}
+
+.section-one h1 {
+  top: 300px;
+  left: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-one .following {
+  top: 340px;
+  left: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.section-one .friends {
+  top: 340px;
+  left: 385px;
+}
+
+.section-two {
+  width: 1000px;
+  background-color: #E8E8E8;
+}
+
+.bio {
+  float: left;
+  width: 375px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 12.5px;
+  background-color: #E8E8E8;
+}
+
+.intro {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.photos {
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.timeline {
+  float: right;
+  width: 550px;
+  padding-top: 25px;
+  padding-left: 12.5px;
+  padding-right: 25px;
+  background-color: #E8E8E8;
+}
+
+.mind {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.post-header {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.betty-white-post {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.grey-button {
+  justify-content: center;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #E8E8E8;
+}
+
+.search-bar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 325px;
+  border-radius:25px;
+  background-color: #E8E8E8;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/**FLEX DISPLAYS**/
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header div {
+  padding-left: 10px;
+  flex-direction: row;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+.tabs div {
+  flex-direction: row;
+}
+
+.share {
+  display: flex;
+  justify-content: space-between;
+}
+
+.share div {
+  flex-direction: row;
+}
+
+.post-content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.post-content p {
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.impressions {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.impressions p {
+  padding-right: 10px;
+  padding-left: 10px;
+  flex-direction: row;
+}
+
+.interact {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.interact p {
+  padding-right: 10px;
+  flex-direction: row;
+}
+
+.post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post div {
+  flex-direction: row;
+}
+
+/** IMAGE FORMATTING**/
+
+.cover-photo {
+  object-fit: cover;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  width: 850px;
+}
+
+.profile-photo {
+  float: left;
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.mini-profile {
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.facebook-logo {
+  object-fit: cover;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.photo-grid {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.posts {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.betty-white {
+  object-fit: cover;
+  height: 300px;
+  width: 450px;
+  border: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin: 10px;
+  border-style: solid;
+  border-color: #E8E8E8;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+/**FONT STYLING**/
+
+h1, h2, h3, p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.following h2 {
+  font-size: large;
+  color: grey;
+}
+
+.search-bar, .tabs, .post-content, .impressions, .interact p {
+  color: grey;
+  text-align: center;
+}
+
+.add-story p {
+  color: white;
+}
+
+.search-bar p {
+  font-weight: lighter;
+}
+
+.betty-white-post p {
+  font-weight: normal;
+}
+
+.post .date {
+  color: grey;
+}
