@@ -5,7 +5,7 @@
 
 .container {
   width: 1000px;
-  height: 1450px;
+  height: 1475px;
   background-color: #E8E8E8;
   margin-right: auto;
   margin-left: auto;
@@ -75,6 +75,10 @@
   background-color: white;
 }
 
+.about-me {
+  padding: 10px;
+}
+
 .photos {
   padding: 10px;
   margin-top: 25px;
@@ -130,6 +134,16 @@
   background-color: #E8E8E8;
 }
 
+.header .search-facebook {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 75px;
+  margin: 10px;
+  border-radius:25px;
+  background-color: #E8E8E8;
+}
+
 hr {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -145,6 +159,22 @@ hr {
 .header div {
   padding-left: 10px;
   flex-direction: row;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.name-following-friends {
+  padding-left: 25px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .tabs {
@@ -175,7 +205,6 @@ hr {
 .post-content p {
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
 .impressions {
@@ -210,6 +239,7 @@ hr {
 
 .post div {
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /** IMAGE FORMATTING**/
@@ -244,6 +274,8 @@ hr {
 }
 
 .facebook-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
   object-fit: cover;
   height: 40px;
   width: 40px;
@@ -265,12 +297,12 @@ hr {
 .betty-white {
   object-fit: cover;
   height: 300px;
-  width: 450px;
+  width: 505px;
   border: 1px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin: 10px;
+  margin: 15px;
   border-style: solid;
   border-color: #E8E8E8;
   border-width: 2px;
@@ -283,12 +315,16 @@ h1, h2, h3, p {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.tabs{
+  padding-bottom: 15px;
+}
+
 .following h2 {
   font-size: large;
   color: grey;
 }
 
-.search-bar, .tabs, .post-content, .impressions, .interact p {
+.search-facebook, .search-bar, .tabs, .post-content, .impressions, .interact p {
   color: grey;
   text-align: center;
 }
